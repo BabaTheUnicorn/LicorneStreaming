@@ -1,0 +1,42 @@
+
+body{
+	background-image: url("nouveau.jpg");
+}
+
+header{
+	font-size:20;
+	background-color:#242940;
+	border : 1px solid #242940;
+	font-weight:bold;
+	color:#D9E1FF;
+}
+
+.container { /* Ici je supprime le padding par défaut présent dans Bootstrap. */
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.barreMenu{
+	padding-right: 0px;
+	padding-left: 0px;
+	background-color: rgba(125,125,125,0.8);
+}
+
+.page{
+	background-color: rgba(228,229,229,0.8);
+}
+
+/* Mise en forme du menu (recherche et connexion)*/
+#navigation{
+	list-style-type: none;
+}
+
+h1{
+	text-align: center;
+}
+
+.elt{
+	border : 1px solid black;
+	margin-left: 30px;
+	margin-bottom: 10px;
+}
